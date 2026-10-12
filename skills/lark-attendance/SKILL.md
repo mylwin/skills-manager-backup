@@ -1,11 +1,14 @@
 ---
+description: 飞书考勤打卡：查询自己的考勤打卡记录
+metadata:
+  cliHelp: lark-cli attendance --help
+  requires:
+    bins:
+      - lark-cli
+  targets:
+    - qoder
 name: lark-attendance
 version: 1.0.0
-description: "飞书考勤打卡：查询自己的考勤打卡记录"
-metadata:
-  requires:
-    bins: ["lark-cli"]
-  cliHelp: "lark-cli attendance --help"
 ---
 
 # attendance (v1)
