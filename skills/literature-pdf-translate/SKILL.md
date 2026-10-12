@@ -1,6 +1,9 @@
 ---
-name: literature-pdf-translate
 description: Translate academic literature and PDF documents locally with the user's configured translation service. Use this skill whenever the user asks to translate a paper, article, research document, or PDF, including requests for a bilingual dual-column PDF, a translation-only PDF, or a PDF attached in chat. Guide the user through file selection and output type, then require explicit confirmation before starting the local server or submitting any translation job.
+metadata:
+  targets:
+    - codex
+name: literature-pdf-translate
 ---
 
 # Local PDF Translation
